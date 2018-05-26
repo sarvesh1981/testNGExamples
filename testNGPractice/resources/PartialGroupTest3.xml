@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" allow-return-values="true">
+ 
+ <parameter name="paramValueFromXML" value="Hello Sarvesh"></parameter>
+  <test name="Nopackage" preserve-order="true">
+  <groups>
+  <run>
+  <include name="group1"/>
+  </run>
+  </groups>
+    <classes>    	
+       <class name="com.practice.java.testngEx.testNGPractice.PartialGroupTest" >
+      <!--  <methods>
+       <include name="methodTest6"/>
+       </methods> -->
+       </class>
+    </classes>
+  </test>
+  </suite>
+  

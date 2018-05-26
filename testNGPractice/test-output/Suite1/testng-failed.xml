@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]" allow-return-values="true">
+  <test thread-count="5" name="Nopackage(failed)">
+    <classes>
+      <class name="com.practice.java.testngEx.testNGPractice.TestngExWithDataprovider">
+        <methods>
+          <include name="loginApp"/>
+        </methods>
+      </class> <!-- com.practice.java.testngEx.testNGPractice.TestngExWithDataprovider -->
+    </classes>
+  </test> <!-- Nopackage(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
